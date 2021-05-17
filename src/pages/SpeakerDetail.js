@@ -74,7 +74,7 @@ export default function SpeakerDetail(props) {
       <div className="header"></div>
       <div className="speaker">
         <div className="image">
-          <img src={speaker.imageUrl} alt="" />
+          <img src={`${process.env.PUBLIC_URL}/${speaker.imageUrl}`} alt="" />
         </div>
         <div className="detail">
           <Typography as="h3" fontSize="28px" fontWeight="normal">
