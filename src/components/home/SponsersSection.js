@@ -114,7 +114,9 @@ export default function SponsersSection(props) {
   };
 
   useEffect(() => {
-    axios.get("data/sponsers.json").then((res) => setSponsers(res.data));
+    axios
+      .get(`${process.env.PUBLIC_URL}/data/sponsers.json`)
+      .then((res) => setSponsers(res.data));
   }, []);
 
   return (

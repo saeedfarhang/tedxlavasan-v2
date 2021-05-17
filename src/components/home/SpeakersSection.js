@@ -67,7 +67,9 @@ export default function SpeackersSection(props) {
 
   useEffect(() => {
     // setSpeakers(speakersData);
-    axios.get("data/speakers.json").then((res) => setSpeakers(res.data));
+    axios
+      .get(`${process.env.PUBLIC_URL}/data/speakers.json`)
+      .then((res) => setSpeakers(res.data));
   }, []);
 
   return (
