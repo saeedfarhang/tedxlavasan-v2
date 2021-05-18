@@ -116,5 +116,27 @@
         "twitter": "",
         "linkedin": "",
         "instagram": ""
+    },
+    {
+        "id": 11,
+        "imageUrl": "assets/sponser-logo/farshonline.jpeg",
+        "title": "فرش آنلاین",
+        "telegram": "",
+        "web": "https://farshonline.com/",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "instagram": ""
+    },
+    {
+        "id": 12,
+        "imageUrl": "assets/sponser-logo/keshmoon.png",
+        "title": "کشمون",
+        "telegram": "",
+        "web": "https://www.keshmoon.com/",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "instagram": ""
     }
 ]
