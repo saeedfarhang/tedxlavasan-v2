@@ -42,7 +42,7 @@ export default function Home() {
       <AboutLavasanSection />
       <div id="tedandtedx"></div>
       <AboutTEDSection />
-      <VolenteersSection />
+      {/* <VolenteersSection /> */}
       <FooterSection />
     </HomeContainer>
   );
