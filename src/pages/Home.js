@@ -37,7 +37,7 @@ export default function Home() {
       <div id="about"></div>
       <AboutSection />
       <div id="volenteers"></div>
-      <SponsersSection />
+      {/* <SponsersSection /> */}
       <div className="space"></div>
       <AboutLavasanSection />
       <div id="tedandtedx"></div>

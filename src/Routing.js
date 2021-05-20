@@ -29,9 +29,9 @@ export default function Routing(props) {
         <Route exact path="/speakers">
           <Speakers />
         </Route>
-        <Route exact path="/sponsors">
+        {/* <Route exact path="/sponsors">
           <Sponsers />
-        </Route>
+        </Route> */}
         {/* <Route exact path="/signup">
           <SignUp />
         </Route> */}

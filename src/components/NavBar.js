@@ -190,11 +190,11 @@ export default function NavBar(props) {
               سخنرانان
             </Button>
           </Link>
-          <Link to="/sponsors" id="sponsors">
+          {/* <Link to="/sponsors" id="sponsors">
             <Button className="nav-btn" id="sponsers" variant="clear">
               حامیان
             </Button>
-          </Link>
+          </Link> */}
           <Link to="/workshop" id="workshop">
             <Button className="nav-btn" id="workshop" variant="clear">
               معرفی کارگاه
@@ -231,11 +231,11 @@ export default function NavBar(props) {
             سخنرانان
           </Button>
         </Link>
-        <Link to="/sponsors" id="sponsors">
+        {/* <Link to="/sponsors" id="sponsors">
           <Button className="nav-btn" id="sponsers" variant="clear">
             حامیان
           </Button>
-        </Link>
+        </Link> */}
         <HashLink to="/workshop" id="workshop">
           <Button className="nav-btn" id="workshop" variant="clear">
             معرفی کارگاه
